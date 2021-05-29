@@ -1,7 +1,9 @@
 <template>
   <view class="content">
-    <image
+    <u-image
       class="logo"
+      width="200rpx"
+      height="200rpx"
       src="/static/logo.png"
     />
     <view class="text-area">
@@ -37,8 +39,6 @@
 	}
 
 	.logo {
-		height: 200rpx;
-		width: 200rpx;
 		margin-top: 200rpx;
 		margin-left: auto;
 		margin-right: auto;
